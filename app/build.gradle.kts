@@ -3,12 +3,12 @@ plugins {
 }
 
 android {
-    namespace = "com.example.primoprogetto"
+    namespace = "com.example.contaclick"
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "com.example.primoprogetto"
-        minSdk = 26
+        applicationId = "com.example.contaclick"
+        minSdk = 24
         targetSdk = 34
         versionCode = 1
         versionName = "1.0"
@@ -19,10 +19,7 @@ android {
     buildTypes {
         release {
             isMinifyEnabled = false
-            proguardFiles(
-                getDefaultProguardFile("proguard-android-optimize.txt"),
-                "proguard-rules.pro"
-            )
+            proguardFiles(getDefaultProguardFile("proguard-android-optimize.txt"), "proguard-rules.pro")
         }
     }
     compileOptions {

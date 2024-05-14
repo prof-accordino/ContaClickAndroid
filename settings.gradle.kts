@@ -19,5 +19,5 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "PrimoProgetto"
+rootProject.name = "ContaClick"
 include(":app")
